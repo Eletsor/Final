@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*defoalt*/
+
+input, textarea {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+  }
+
+  h1{
+    margin: 0;
+  }
+  
+  p{
+    margin: 0;
+  }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+  /*header*/
+
+.header{
+    background-color: #9564AA;
+}
+
+.logo{
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.navbar-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 27px;
+}
+
+.navbar-link{  
+    display: flex;
+    font-size: 12px;
+   
+}
+
+.navbar-link li {
+    padding-right: 2vw;
+}
+
+.nav-a{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navbar-link li .active{
+    padding: 6px 13px;
+    background-color: #684677;
+    border-radius: 10px;
+    color: #FFCF2D;
+}
+
+.navbar-link li:last-child{
+    padding: 0;
+}
+
+.desktop{
+    display: none;
+}
+
+
+
+/*main*/
+
+.question-wrap{
+    padding: 15px 20px 35px 20px;
+    
+}
+
+.question-tittle{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9564aa65;
+    
+}
+
+/*slider*/
+
+.slider-wrapper{
+    padding: 23px 20px 35px 20px;
+}
+
+.slider-element{
+    background-color: #684677;
+}
+
+/*button*/
+
+.try-wrapper{
+    text-align: center;
+}
+
+.try-link{
+    padding: 17px 20px 20px ;
+    background-color: #FFCF2D;
+}
